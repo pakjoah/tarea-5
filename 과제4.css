@@ -1,0 +1,37 @@
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+.box1 {
+    position: relative;
+    left: -8px;
+    top: -8px;
+}
+.box2 {
+background-color: gray;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+
+
+.링크 {
+  border: 1px solid blue;
+  height: 30px;
+  text-decoration: none;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.링크:hover {
+  text-decoration: underline;
+}

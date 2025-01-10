@@ -1,0 +1,27 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.box1 {
+  width: 340px;
+  height: 170px;
+  color: white;
+  background-color: gray;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.box2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.box3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

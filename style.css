@@ -1,0 +1,39 @@
+.body{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    justify-content: flex-start;
+}
+
+.box-right{
+    display: flex;
+}
+
+.box3{
+    margin-left: 10px;
+}
+
+
+
+
+
+.링크{
+    border: 1px solid blue;
+    height: 30px;
+    text-decoration: none;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.링크:hover{
+    text-decoration: underline;
+}

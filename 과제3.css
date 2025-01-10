@@ -1,0 +1,42 @@
+.body {
+  height: 90vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  position: relative;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.box3 {
+  align-self: flex-end;
+}
+
+.링크 {
+  border: 1px solid blue;
+  height: 30px;
+  text-decoration: none;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.링크:hover {
+  text-decoration: underline;
+}
